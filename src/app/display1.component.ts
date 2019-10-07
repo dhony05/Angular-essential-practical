@@ -1,4 +1,5 @@
-import {Component} from '@angular/core';
+import {Component, Input, Output ,EventEmitter} from '@angular/core';
+import { isNgTemplate } from '@angular/compiler';
 // component decorator
 
 @Component({
@@ -8,6 +9,18 @@ import {Component} from '@angular/core';
 })
 
 export class displayOneComponent {
+    @Input() item;
+
+    @Output() delete = new EventEmitter();
+
+
+
+    OnDelete(){
+        console.log("delete was clicked");
+        this.delete.emit(this.item);
+    }
+
+
     name = 'count';
     // a placing variables 
     // to make expression content
@@ -17,8 +30,9 @@ export class displayOneComponent {
     }
     count = 0;
     incrementCount(count){
-        count ++;
+        count ++ ;
         console.log(count);
+        console.log('Count clicked!')
         
     }
 }

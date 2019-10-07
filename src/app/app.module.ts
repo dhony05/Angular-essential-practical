@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {displayOneComponent} from './display1.component';
+import {displayItemListComponent} from './display-item-list.component'
 @NgModule({
   declarations: [
     AppComponent,
-    displayOneComponent
+    displayOneComponent,
+    displayItemListComponent
     
   ],
   imports: [
