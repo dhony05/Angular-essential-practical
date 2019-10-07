@@ -7,13 +7,14 @@ import { Component } from '@angular/core';
  
 })
 export class AppComponent {
-  firstItem = {
-    name: 'Ducky',
-    category: 'patito feo',
-    gender: "female",
-    age: 4,
-}
+//   firstItem = {
+//     name: 'Ducky',
+//     category: 'patito feo',
+//     gender: "female",
+//     age: 4,
+// }
 
 
-  onItemDelete(item){}
+
+  // onItemDelete(item){}
 }

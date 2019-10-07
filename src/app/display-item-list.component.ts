@@ -7,14 +7,14 @@ import { Component } from '@angular/core';
 
 })
 
-export class displayItemListComponent{
+export class displayItemListComponent {
 
-    items = [
+     items = [
         {
             name: 'patito',
             category: 'patito feo',
             gender: "male",
-            age:4
+            age: 4
         },
         {
             name: 'patitito',
@@ -28,7 +28,7 @@ export class displayItemListComponent{
             gender: "female",
             age: 1
         }
-    ]
+    ];
 
 
 }

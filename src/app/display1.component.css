@@ -1,8 +1,18 @@
 
-  .item{
-
-    margin: 10px;
-    border: 1px solid blue;
+  :host {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 200px;
+    border: 2px solid;
     background-color: aquamarine;
+    padding: 10px;
+    color: #bdc2c5;
+    margin: 0 12px 12px 0;
     border-radius: 1pc
-} 
+  }
+  h2 {
+    font-size: 1.6em;
+    flex: 1;
+  }
+
