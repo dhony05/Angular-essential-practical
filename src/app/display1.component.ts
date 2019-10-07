@@ -15,5 +15,11 @@ export class displayOneComponent {
     method(){
         return true;
     }
+    count = 0;
+    incrementCount(count){
+        count ++;
+        console.log(count);
+        
+    }
 }
 // name of the class
