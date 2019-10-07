@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
  
 })
 export class AppComponent {
-  title = 'angular-example';
+  firstItem = {
+    name: 'Ducky',
+    category: 'patito feo',
+    gender: "female",
+    age: 4,
+}
+
+
+  onItemDelete(item){}
 }
